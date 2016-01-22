@@ -14,3 +14,4 @@ RUN /whatwg/build/build.sh && \
 
 CMD ["nginx", "-g", "daemon off;"]
 
+

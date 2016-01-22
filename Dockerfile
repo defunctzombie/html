@@ -13,3 +13,4 @@ RUN /whatwg/build/build.sh && \
     mv /var/www/html/index /var/www/html/index.html
 
 CMD ["nginx", "-g", "daemon off;"]
+
